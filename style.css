@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+body {
+  background-color: #2b2922;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  width: 120px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list-item {
+  padding: 0px 20px;
+}
+
+.button-small {
+  padding: 5px 10px;
+  background-color: #2b2922;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #8e7f32;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  color: #fff;
+  position: relative;
+}
+
+.hero-heading {
+  display: inline-block;
+  font-size: 55px;
+  width: 50%;
+  padding: 50px 150px;
+}
+
+.hero-body {
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  padding: 50px 106px;
+}
+
+[alt="bgc-img"] {
+  width: 100%;
+  display: block;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  background: #39372d;
+}
+
+.button-large-prev {
+  display: inline-block;
+  border: 1px solid #8e7f32;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 20px 25px;
+}
+
+.button-large-next {
+  display: inline-block;
+  border: 1px solid #8e7f32;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 20px 25px;
+}
+
+.button-large-prev:hover {
+  border: 1px solid #fff;
+  background-color: #a08f36;
+}
+
+.button-large-next:hover {
+  border: 1px solid #fff;
+  background-color: #a08f36;
+}
